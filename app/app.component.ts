@@ -4,7 +4,7 @@ import { Component } from "@angular/core";
   selector: "my-app",
   template: `
     <StackLayout>
-        <TextField hint="Email Address" keyboardType="email"
+        <TextField hint="Email" keyboardType="email"
             autocorrect="false" autocapitalizationType="none"></TextField>
         <TextField hint="Password" secure="true"></TextField>
 
